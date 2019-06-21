@@ -1,5 +1,12 @@
 {
-  "name": "Github Pull Request Notification Slack Bot",
+  "name": "Pull Request Bot",
+  "description": "TODO: Add a short description about Pull Request Bot",
+  "keywords": [
+    "small",
+    "sharp",
+    "tool"
+  ],
+  "addons": [],
   "env": {
     "GITHUB_ACCESS_TOKKEN": {
       "description": "To generate a token go to: https://github.ibm.com/settings/tokens",
@@ -21,8 +28,5 @@
       "value": "-1",
       "required": true
     }
-  },
-  "scripts": {
-    "postdeploy": "node index.js"
   }
 }
