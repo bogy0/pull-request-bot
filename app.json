@@ -1,0 +1,28 @@
+{
+  "name": "Github Pull Request Notification Slack Bot",
+  "env": {
+    "GITHUB_ACCESS_TOKKEN": {
+      "description": "To generate a token go to: https://github.ibm.com/settings/tokens",
+      "value": "-1",
+      "required": true
+    },
+    "GITHUB_ORGANIZATION": {
+      "description": "This is your Github organization's name where the repository exists, eg: 'watsonmedia'",
+      "value": "watsonmedia",
+      "required": true
+    },
+    "GITHUB_REPO": {
+      "description": "This is the repository name where you want to check for Pull Requests, eg: 'enrichment-api'",
+      "value": "enrichment-api",
+      "required": true
+    },
+    "SLACK_HOOK": {
+      "description": "To generate an Incoming Webhook go to: 'https://wmwx.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks' The value of this field should be the end of the given Webhook URL after the '...services/', eg: Given Webhook 'https://hooks.slack.com/services/T04HC9/BKT08/OCTIUPURwx9EGGl' --> SLACK_HOOK=T04HC9/BKT08/OCTIUPURwx9EGGl",
+      "value": "-1",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "node index.js"
+  }
+}

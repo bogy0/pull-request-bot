@@ -1,0 +1,26 @@
+{
+  "name": "github-notification-slack-bot",
+  "version": "1.0.0",
+  "description": "A slackbot for Github notifications such as Pull Requests which stuck etc. ",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "octonode": "^0.9.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:Balint-Lendvai/github-notification-slack-bot.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Balint Lendvai",
+  "license": "ISC"
+}
