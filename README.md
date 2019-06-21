@@ -13,6 +13,9 @@ The current state of the bot:
   - Github Access Token - To generate a token: https://github.ibm.com/settings/tokens
   - Slack Webhook - To generate an Incoming Webhook: https://wmwx.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks
 
+##### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bogy0/pull-request-bot/))
+
 ##### Build and run locally
 Use these tokens in this docker build command:
 ```
